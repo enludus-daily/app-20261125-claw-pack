@@ -11,10 +11,27 @@ enum MainFlow {
     static let launchArguments: [String] = []
 
     /// 1 操作ずつ。各操作のあとに撮る。
+    /// 案内 3 ページ → つかむ → 放す → つかむ → 放す → 箱を閉じる → 部屋の一覧 → トラックと記録 → 設定
     static let steps: [Step] = [
-        .tap("main.increment"),
-        .tap("main.increment"),
-        .tap("main.reset"),
+        .tap("main.onboardNext"),
+        .tap("main.onboardNext"),
+        .tap("main.onboardStart"),
+        .wait(1.0),
+        .tap("main.claw"),
+        .wait(2.5),
+        .tap("main.claw"),
+        .wait(1.5),
+        .tap("main.claw"),
+        .wait(2.5),
+        .tap("main.claw"),
+        .wait(1.5),
+        .tap("main.seal"),
+        .tap("main.rooms"),
+        .tap("main.close"),
+        .tap("main.truck"),
+        .tap("main.close"),
+        .tap("main.settings"),
+        .tap("main.close"),
     ]
 }
 

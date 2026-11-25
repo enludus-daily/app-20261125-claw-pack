@@ -1,0 +1,21 @@
+{
+  "identifier" : "C1A0A018",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "480",
+      "familyShareable" : true,
+      "internalID" : "C1A0A018-0001",
+      "localizations" : [
+        { "description" : "部屋が60に・ゆらぎなしの練習・つめの色2つ", "displayName" : "つかんで荷造り Pro", "locale" : "ja" },
+        { "description" : "60 rooms, steady-claw practice, 2 claw finishes", "displayName" : "Claw & Pack Pro", "locale" : "en_US" }
+      ],
+      "productID" : "com.enludus.daily.018.pro",
+      "referenceName" : "Claw & Pack Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : { "_locale" : "ja_JP", "_storefront" : "JPN" },
+  "subscriptionGroups" : [],
+  "version" : { "major" : 3, "minor" : 0 }
+}

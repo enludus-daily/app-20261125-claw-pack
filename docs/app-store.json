@@ -1,21 +1,21 @@
 {
   "_doc": "App Store Connect に API で入れる情報（.github/workflows/asc.yml の metadata が読む）。文字数：name・subtitle 30、keywords 100（カンマ区切り）、promotionalText 170、description 4000。カテゴリの ID は EDUCATION・PRODUCTIVITY・UTILITIES・LIFESTYLE・HEALTH_AND_FITNESS など。審査への提出と App プライバシーの申告は本人が行う。",
   "locale": "ja",
-  "name": "",
-  "subtitle": "",
-  "primaryCategory": "",
-  "secondaryCategory": "",
-  "supportUrl": "https://github.com/enludus-daily/__REPO__/issues",
-  "privacyPolicyUrl": "https://github.com/enludus-daily/__REPO__/blob/main/PRIVACY.md",
-  "keywords": "",
-  "promotionalText": "",
-  "description": "",
-  "whatToTest": "",
+  "name": "つかんで荷造り：引っ越しクレーン",
+  "subtitle": "クレーンでつかんで箱に詰めるパズル",
+  "primaryCategory": "GAMES",
+  "secondaryCategory": "ENTERTAINMENT",
+  "supportUrl": "https://github.com/enludus-daily/app-20261125-claw-pack/issues",
+  "privacyPolicyUrl": "https://github.com/enludus-daily/app-20261125-claw-pack/blob/main/PRIVACY.md",
+  "keywords": "引っ越し,荷造り,クレーン,箱詰め,パズル,物理,段ボール,片付け,詰め込み,割れ物,毎日,パッキング",
+  "promotionalText": "引っ越しの朝、部屋の物をクレーンでつかんで段ボールに詰める。少ない箱で詰めるほどトラック代が浮く。割れ物は低く下ろして。毎日ひと部屋、だれが開いても同じ部屋。",
+  "description": "引っ越しの朝。空っぽになっていく部屋で、物をクレーンでつかんで段ボール箱に詰めるパズルゲームです。\n\n■ 遊び方\n・部屋をなぞってクレーンを動かし、「つかむ」。真ん中をつかむほど落としにくい\n・箱の上で、押しているあいだ下がり、離すと放す\n・お皿・グラス・植木鉢などの割れ物は、高い所から落とすと割れる。重い物の下にも入れない\n・縁からはみ出すと、ふたが閉まらない\n・箱がいっぱいになったら「箱を閉じる」。テープを貼ってトラックへ\n・箱が少ないほどトラック代が浮く。たいせつな物（写真立て・ぬいぐるみ）を一番上に入れるとボーナス\n\n■ 中身\n・物は40種類。本、辞書、どんぶり、やかん、レコードの木箱、ダンベル、地球儀、ウクレレ…それぞれ大きさ・重さ・つかみやすさが違う\n・決まった部屋 24（ワンルーム、子ども部屋、狭い台所、祖父の書斎…）。部屋ごとに短いお話\n・毎日の部屋：日付で決まり、だれが開いても同じ部屋。続けた日数と、浮いた額の7日間の記録\n・荷物の図鑑：詰めた物の「思い出の一言」が読める\n\n■ Pro（買い切り）\n・部屋が60に（陶芸家の台所、ガラス作家の棚など割れ物の多い36部屋）\n・ゆらぎなしの練習\n・つめの色2つ（金・木）\n\n記録はこの端末の中だけに残ります。外に送るデータはありません。",
+  "whatToTest": "部屋をなぞってクレーンを動かし、「つかむ」で物をつかむ。箱の上で「押して下げる」を押し続けて下げ、離すと放す。割れ物を高い所から放すと割れる。箱を閉じるとトラックへ。部屋の一覧（左上）から毎日の部屋・ほかの部屋、右上でトラックと記録・設定。Pro は設定 > Pro を見る。",
   "en-US": {
-    "name": "",
-    "subtitle": "",
-    "keywords": "",
-    "promotionalText": "",
-    "description": ""
+    "name": "Claw & Pack: Moving Day",
+    "subtitle": "Grab, drop and box up a room",
+    "keywords": "moving,packing,claw,crane,box,puzzle,physics,cardboard,tidy,fragile,daily,stack,unpack",
+    "promotionalText": "Moving day. Grab everything in the room with a crane and pack it into cardboard boxes. Fewer boxes, cheaper truck. Lower the fragile stuff gently. A new room every day.",
+    "description": "It's moving day. In a sunny room that's slowly getting emptier, you grab things with a crane and pack them into cardboard boxes.\n\nHOW TO PLAY\n- Drag across the room to move the crane, then tap Grab. Grab near the middle so it won't slip\n- Over the box, hold to lower and let go to drop\n- Plates, glasses and potted plants break if you drop them from high up, or if something heavy lands on them\n- Anything sticking out above the rim keeps the lid from closing\n- When a box is full, seal it with tape and send it to the truck\n- Fewer boxes means a cheaper truck. Put the keepsake (a photo frame, a teddy bear) on top for a bonus\n\nWHAT'S INSIDE\n- 40 kinds of things: paperbacks, dictionaries, bowls, kettles, record crates, dumbbells, globes, ukuleles... each with its own size, weight and grip\n- 24 rooms, from a first studio to grandpa's study, each with a short story\n- Today's room: picked by the date, the same for everyone. Streaks and a 7-day savings chart\n- Packed items: read a one-line memory for everything you pack\n\nPRO (ONE-TIME PURCHASE)\n- 60 rooms in total, including 36 trickier rooms full of fragile things\n- Steady-claw practice\n- Gold and oak claw finishes\n\nYour records stay on this device. Nothing is sent anywhere."
   }
 }

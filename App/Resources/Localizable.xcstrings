@@ -1,42 +1,3599 @@
 {
   "sourceLanguage": "ja",
   "strings": {
-    "はじめる": {
+    "%@ で Pro にする": {
+      "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Start"
+            "value": "Get Pro for %@"
           }
         }
       }
     },
-    "リセット": {
+    "%@が割れた": {
+      "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Reset"
+            "value": "The %@ broke"
           }
         }
       }
     },
-    "1 たす": {
+    "%d 日つづいた": {
+      "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Add 1"
+            "value": "%d-day streak"
           }
         }
       }
     },
-    "回数 %lld": {
+    "1 部屋あたり約 13 円。似た箱詰め・クレーンのゲームの買い切り（$2.99〜$9.99）より安くしています。": {
+      "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Count %lld"
+            "value": "About ¥13 per room. Priced below similar packing and claw games ($2.99–$9.99)."
+          }
+        }
+      }
+    },
+    "3日だけ使った。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Used for three whole days."
+          }
+        }
+      }
+    },
+    "4年間の学生生活が、ここで終わる。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Four years of college end here."
+          }
+        }
+      }
+    },
+    "5分すすめてある。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set five minutes fast, on purpose."
+          }
+        }
+      }
+    },
+    "App Store につながりませんでした。電波のよい所で開き直してください": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't reach the App Store. Try again with a better connection"
+          }
+        }
+      }
+    },
+    "Pro で部屋を 60 に": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get 60 rooms with Pro"
+          }
+        }
+      }
+    },
+    "Pro を持っています": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You have Pro"
+          }
+        }
+      }
+    },
+    "Pro を見る": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See Pro"
+          }
+        }
+      }
+    },
+    "¥480 で Pro にする": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get Pro for ¥480"
+          }
+        }
+      }
+    },
+    "いつも塔を作ってから崩す。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every tower ends in a crash."
+          }
+        }
+      }
+    },
+    "いまは買えません（あとで）": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not available right now"
+          }
+        }
+      }
+    },
+    "いろいろ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MISC"
+          }
+        }
+      }
+    },
+    "おしい": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slipped"
+          }
+        }
+      }
+    },
+    "おじさんの物置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uncle’s Shed"
+          }
+        }
+      }
+    },
+    "おもちゃ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TOYS"
+          }
+        }
+      }
+    },
+    "おもちゃは、ぴったり半分ずつ。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every toy, split exactly in half."
+          }
+        }
+      }
+    },
+    "おもちゃ屋の倉庫": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toy Shop Stockroom"
+          }
+        }
+      }
+    },
+    "お客さんの日だけ出す。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only for guests."
+          }
+        }
+      }
+    },
+    "お皿": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plate"
+          }
+        }
+      }
+    },
+    "くつ・服": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CLOSET"
+          }
+        }
+      }
+    },
+    "くまのぬいぐるみ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teddy bear"
+          }
+        }
+      }
+    },
+    "こげ付かない、と書いてあった。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It said non-stick on the box."
+          }
+        }
+      }
+    },
+    "この 7 日で %d 日遊んだ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Played %d of the last 7 days"
+          }
+        }
+      }
+    },
+    "この 7 日の「今日の部屋」": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today's room, last 7 days"
+          }
+        }
+      }
+    },
+    "この部屋に来た日の写真。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A photo from moving-in day."
+          }
+        }
+      }
+    },
+    "この部屋をやり直す": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restart this room"
+          }
+        }
+      }
+    },
+    "これが終われば、新しい家。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish this, and it’s the new house."
+          }
+        }
+      }
+    },
+    "しおりが3冊ぶん挟まったまま。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Three bookmarks, none of them finished."
+          }
+        }
+      }
+    },
+    "たいせつ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keepsake"
+          }
+        }
+      }
+    },
+    "たいせつな物": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keepsake"
+          }
+        }
+      }
+    },
+    "たいせつな物が一番上": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keepsake on top"
+          }
+        }
+      }
+    },
+    "たたんだ毛布": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folded blanket"
+          }
+        }
+      }
+    },
+    "だれが開いても同じ部屋。少ない箱で詰めよう": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Same room for everyone. Use as few boxes as you can"
+          }
+        }
+      }
+    },
+    "ちょうどいい高さは、これだけ。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The only one at the right height."
+          }
+        }
+      }
+    },
+    "つかむ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grab"
+          }
+        }
+      }
+    },
+    "つかんで荷造り Pro": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Claw & Pack Pro"
+          }
+        }
+      }
+    },
+    "つかんで荷造り「%@」%@%@ 箱 %d（目安 %d）浮いた代金 %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Claw & Pack \"%@\" %@%@ %d boxes (par %d), saved %@"
+          }
+        }
+      }
+    },
+    "つめの色 2 つ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 claw finishes"
+          }
+        }
+      }
+    },
+    "ていねい賞 +%@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Careful bonus +%@"
+          }
+        }
+      }
+    },
+    "とばす": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip"
+          }
+        }
+      }
+    },
+    "どんぶり": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bowl"
+          }
+        }
+      }
+    },
+    "どんぶりの山。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A mountain of bowls."
+          }
+        }
+      }
+    },
+    "なし": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "none"
+          }
+        }
+      }
+    },
+    "なべは3つ。どれも大きい。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Three pots. All big."
+          }
+        }
+      }
+    },
+    "ねえちゃんの子ども部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Big Sister’s Room"
+          }
+        }
+      }
+    },
+    "ねむりの部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Sleepy Room"
+          }
+        }
+      }
+    },
+    "はじめてのワンルーム": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "First Studio"
+          }
+        }
+      }
+    },
+    "ひとつもない": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "none"
+          }
+        }
+      }
+    },
+    "ひとり旅の宿": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Traveler’s Inn Room"
+          }
+        }
+      }
+    },
+    "ひまわり色": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sunflower"
+          }
+        }
+      }
+    },
+    "びんは割らないで。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Do not break the jars."
+          }
+        }
+      }
+    },
+    "ふたが閉まらない": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The lid won't close"
+          }
+        }
+      }
+    },
+    "ふたごの部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twins’ Room"
+          }
+        }
+      }
+    },
+    "ふたを開ける音が好き。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The lid makes a happy pop."
+          }
+        }
+      }
+    },
+    "ぶたの貯金箱": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piggy bank"
+          }
+        }
+      }
+    },
+    "まくら": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pillow"
+          }
+        }
+      }
+    },
+    "まくらが多すぎる。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Far too many pillows."
+          }
+        }
+      }
+    },
+    "まくらの数が、まだ合わない。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The pillow count still doesn’t match."
+          }
+        }
+      }
+    },
+    "まだ荷台は空っぽ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The truck is still empty"
+          }
+        }
+      }
+    },
+    "まんがの束": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comic stack"
+          }
+        }
+      }
+    },
+    "もう一度この部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pack this room again"
+          }
+        }
+      }
+    },
+    "やかん": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kettle"
+          }
+        }
+      }
+    },
+    "ゆらぎなしの練習": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steady claw practice"
+          }
+        }
+      }
+    },
+    "ゆらぎなしの練習（Pro）": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steady claw practice (Pro)"
+          }
+        }
+      }
+    },
+    "ウクレレ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukulele"
+          }
+        }
+      }
+    },
+    "ウクレレは主役ではない。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The ukulele is not the star."
+          }
+        }
+      }
+    },
+    "カレーは3日もつ。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Curry for three days."
+          }
+        }
+      }
+    },
+    "カレー屋の台所": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Curry Kitchen"
+          }
+        }
+      }
+    },
+    "ガシャン": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CRASH"
+          }
+        }
+      }
+    },
+    "ガラス作家の棚": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glassmaker’s Shelf"
+          }
+        }
+      }
+    },
+    "キッチン": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kitchen"
+          }
+        }
+      }
+    },
+    "クッション": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cushion"
+          }
+        }
+      }
+    },
+    "クレーンのつめ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Claw color"
+          }
+        }
+      }
+    },
+    "グラス": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glass"
+          }
+        }
+      }
+    },
+    "グラスが光っている。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The glasses sparkle."
+          }
+        }
+      }
+    },
+    "ゲーム機の箱": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Game console box"
+          }
+        }
+      }
+    },
+    "ゲーム機の箱は宝物。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The console box is a treasure."
+          }
+        }
+      }
+    },
+    "コンロは1口。料理は3品まで。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One burner. Three dishes, tops."
+          }
+        }
+      }
+    },
+    "サッカーボール": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Football"
+          }
+        }
+      }
+    },
+    "シェアハウスの居間": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shared House Lounge"
+          }
+        }
+      }
+    },
+    "ジムの更衣室": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gym Locker Room"
+          }
+        }
+      }
+    },
+    "ジャズ喫茶の奥": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back of a Jazz Café"
+          }
+        }
+      }
+    },
+    "スタンドライト": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desk lamp"
+          }
+        }
+      }
+    },
+    "スノードーム": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snow globe"
+          }
+        }
+      }
+    },
+    "スノードームは国のおみやげ。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A snow globe from home."
+          }
+        }
+      }
+    },
+    "ダンベル": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dumbbell"
+          }
+        }
+      }
+    },
+    "ダンベルは底から。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dumbbells go first, at the bottom."
+          }
+        }
+      }
+    },
+    "ティーポット": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teapot"
+          }
+        }
+      }
+    },
+    "ティーポットは来客用。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The teapot is for guests."
+          }
+        }
+      }
+    },
+    "トラックと記録": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Truck & records"
+          }
+        }
+      }
+    },
+    "トラックの荷台": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Truck bed"
+          }
+        }
+      }
+    },
+    "トロフィー": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trophy"
+          }
+        }
+      }
+    },
+    "トロフィーは借り物。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The trophy is on loan."
+          }
+        }
+      }
+    },
+    "ドアが開く。それが大事。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The doors open. That's the point."
+          }
+        }
+      }
+    },
+    "ドライバーが1本足りない。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One screwdriver is missing."
+          }
+        }
+      }
+    },
+    "ノートパソコン": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laptop"
+          }
+        }
+      }
+    },
+    "バンドの練習場": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Band Practice Garage"
+          }
+        }
+      }
+    },
+    "パン屋の2階": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Above the Bakery"
+          }
+        }
+      }
+    },
+    "ピーッと鳴る。朝はうるさい。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It whistles. Loudly. Every morning."
+          }
+        }
+      }
+    },
+    "フライパン": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frying pan"
+          }
+        }
+      }
+    },
+    "フライパンは長い。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The pans are long."
+          }
+        }
+      }
+    },
+    "ホテルの最上階": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hotel Penthouse"
+          }
+        }
+      }
+    },
+    "ボードゲーム": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Board game"
+          }
+        }
+      }
+    },
+    "ボードゲームの夜は毎週金曜。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Board game night every Friday."
+          }
+        }
+      }
+    },
+    "ボールは4つ。けんかの数は数えきれない。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Four balls. Countless fights."
+          }
+        }
+      }
+    },
+    "マグカップ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mug"
+          }
+        }
+      }
+    },
+    "ミニカー": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toy car"
+          }
+        }
+      }
+    },
+    "ミニカーは箱から出さない。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toy cars stay in their boxes."
+          }
+        }
+      }
+    },
+    "ラジオ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radio"
+          }
+        }
+      }
+    },
+    "ラジオが3台。どれも鳴る。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Three radios. All of them work."
+          }
+        }
+      }
+    },
+    "ラジオ局の控え室": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radio Green Room"
+          }
+        }
+      }
+    },
+    "ラーメンの日はこれ一択。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The only bowl for ramen night."
+          }
+        }
+      }
+    },
+    "レコードの木箱": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Record crate"
+          }
+        }
+      }
+    },
+    "レコードは、閉店の日まで回った。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The records spun until closing day."
+          }
+        }
+      }
+    },
+    "ワンルーム": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Studio"
+          }
+        }
+      }
+    },
+    "一度買えば、ずっと。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buy once, keep forever."
+          }
+        }
+      }
+    },
+    "一番上": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "on top"
+          }
+        }
+      }
+    },
+    "三兄弟の部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Three Brothers’ Room"
+          }
+        }
+      }
+    },
+    "上の段の荷物が多い。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The top bunk owns more stuff."
+          }
+        }
+      }
+    },
+    "両手なべ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stockpot"
+          }
+        }
+      }
+    },
+    "中学に上がる前に、部屋を交換する。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Swapping rooms before middle school."
+          }
+        }
+      }
+    },
+    "中身は靴ではなく手紙。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Letters inside, not shoes."
+          }
+        }
+      }
+    },
+    "今日 %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today %@"
+          }
+        }
+      }
+    },
+    "今日の%@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today's %@"
+          }
+        }
+      }
+    },
+    "今日の部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today's room"
+          }
+        }
+      }
+    },
+    "何が入っているか、だれも知らない。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No one knows what’s in here."
+          }
+        }
+      }
+    },
+    "作家の仕事部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Writer’s Room"
+          }
+        }
+      }
+    },
+    "使った箱": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boxes used"
+          }
+        }
+      }
+    },
+    "保育園の遊戯室": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nursery Playroom"
+          }
+        }
+      }
+    },
+    "個": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "items"
+          }
+        }
+      }
+    },
+    "値札が付いたままの辞書。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A dictionary still has its price tag."
+          }
+        }
+      }
+    },
+    "光が2方向から入る。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light from two windows."
+          }
+        }
+      }
+    },
+    "全部、割れる。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Everything here can break."
+          }
+        }
+      }
+    },
+    "共有": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share"
+          }
+        }
+      }
+    },
+    "写真立て": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo frame"
+          }
+        }
+      }
+    },
+    "冬の夜のこたつの相棒。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every winter night's partner."
+          }
+        }
+      }
+    },
+    "初めての旅行のおみやげ。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A souvenir from the first trip."
+          }
+        }
+      }
+    },
+    "割れ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Broken"
+          }
+        }
+      }
+    },
+    "割れた": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "broken"
+          }
+        }
+      }
+    },
+    "割れた物": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Broken"
+          }
+        }
+      }
+    },
+    "割れ物": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fragile"
+          }
+        }
+      }
+    },
+    "割れ物は低く下ろしてから放す。重い物の下にも入れない": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lower fragile things before letting go, and keep them out from under heavy ones"
+          }
+        }
+      }
+    },
+    "割れ物は高い所から落とすと割れる。重い物の下にも入れない。縁からはみ出すと、ふたが閉まらない。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fragile things break if dropped from high up or crushed by heavy ones. Anything above the rim keeps the lid from closing."
+          }
+        }
+      }
+    },
+    "劇団の衣装部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theater Wardrobe"
+          }
+        }
+      }
+    },
+    "効果音": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sound effects"
+          }
+        }
+      }
+    },
+    "卒論はここで書いた。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wrote the thesis on this."
+          }
+        }
+      }
+    },
+    "博物館の事務室": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Museum Office"
+          }
+        }
+      }
+    },
+    "取っ手が少し欠けている。まだ使う。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A chipped handle. Still in use."
+          }
+        }
+      }
+    },
+    "古本屋のレジ裏": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Behind the Bookshop Till"
+          }
+        }
+      }
+    },
+    "古民家の縁側": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Old House Veranda"
+          }
+        }
+      }
+    },
+    "台所": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KITCHEN"
+          }
+        }
+      }
+    },
+    "名前は「むぎ」。一番上に入れてあげて。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her name is Mugi. Put her on top."
+          }
+        }
+      }
+    },
+    "喫茶店のカウンター": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Café Counter"
+          }
+        }
+      }
+    },
+    "国の名前が少し古い。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Some country names are out of date."
+          }
+        }
+      }
+    },
+    "地球儀": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Globe"
+          }
+        }
+      }
+    },
+    "地球儀と、星の本。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A globe and books about stars."
+          }
+        }
+      }
+    },
+    "地球儀の裏に、宝の地図。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A treasure map behind the globe."
+          }
+        }
+      }
+    },
+    "埋もれた": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "buried"
+          }
+        }
+      }
+    },
+    "夏休みの部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Summer Vacation Room"
+          }
+        }
+      }
+    },
+    "夏祭りの景品。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A prize from a summer fair."
+          }
+        }
+      }
+    },
+    "大きい物から隅へ。たいせつな物は最後に一番上へ。毎日ひと部屋、だれが開いても同じ部屋が届く。記録は端末の中だけ。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Big things first, into the corners. Keepsakes go on top, last. A new room every day, the same for everyone. Records stay on your device."
+          }
+        }
+      }
+    },
+    "大学院生の机": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grad Student Desk"
+          }
+        }
+      }
+    },
+    "天井が低い。頭に気をつけて。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Low ceiling. Mind your head."
+          }
+        }
+      }
+    },
+    "天文部の部室": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Astronomy Club Room"
+          }
+        }
+      }
+    },
+    "子ども部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kids' room"
+          }
+        }
+      }
+    },
+    "実家のガレージ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Family Garage"
+          }
+        }
+      }
+    },
+    "宿題より、ボールが先。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The ball comes before homework."
+          }
+        }
+      }
+    },
+    "寝室": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bedroom"
+          }
+        }
+      }
+    },
+    "寮の二段ベッド": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dorm Bunk"
+          }
+        }
+      }
+    },
+    "少ない箱で、トラック代が浮く": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fewer boxes, cheaper truck"
+          }
+        }
+      }
+    },
+    "居間": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Living room"
+          }
+        }
+      }
+    },
+    "屋上のワンルーム": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rooftop Studio"
+          }
+        }
+      }
+    },
+    "屋根裏の寝室": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attic Bedroom"
+          }
+        }
+      }
+    },
+    "山小屋の寝室": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mountain Hut Bedroom"
+          }
+        }
+      }
+    },
+    "工具箱": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toolbox"
+          }
+        }
+      }
+    },
+    "工具箱は潮のにおい。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The toolbox smells like the sea."
+          }
+        }
+      }
+    },
+    "工具箱は重い。底から入れたい。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toolboxes are heavy. Pack them low."
+          }
+        }
+      }
+    },
+    "布もの": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LINENS"
+          }
+        }
+      }
+    },
+    "帽子の箱": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hat box"
+          }
+        }
+      }
+    },
+    "帽子の箱が、役の数だけ。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A hat box for every role."
+          }
+        }
+      }
+    },
+    "帽子の箱は、つぶさないで。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Do not crush the hat boxes."
+          }
+        }
+      }
+    },
+    "帽子も靴も、旅の記念。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every hat and shoe is a trip."
+          }
+        }
+      }
+    },
+    "帽子好きのクローゼット": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hat Lover’s Closet"
+          }
+        }
+      }
+    },
+    "床が空になった。下の「箱を閉じる」でトラックへ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The floor is clear. Tap Seal box to send it off"
+          }
+        }
+      }
+    },
+    "床に %d 個、箱に %d 個": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d on the floor, %d in the box"
+          }
+        }
+      }
+    },
+    "引っ越しの朝。部屋の物をクレーンでつかむ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moving day. Grab the room with a crane"
+          }
+        }
+      }
+    },
+    "引っ越しの部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rooms to pack"
+          }
+        }
+      }
+    },
+    "弾けるのは2曲。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Knows exactly two songs."
+          }
+        }
+      }
+    },
+    "復元できる購入が見つかりませんでした": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No purchase to restore was found"
+          }
+        }
+      }
+    },
+    "承認を待っています": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting for approval"
+          }
+        }
+      }
+    },
+    "押して下げる": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hold to lower"
+          }
+        }
+      }
+    },
+    "押し花が1枚出てきた。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A pressed flower fell out."
+          }
+        }
+      }
+    },
+    "振るとまだ鳴る。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Still rattles when shaken."
+          }
+        }
+      }
+    },
+    "振動": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haptics"
+          }
+        }
+      }
+    },
+    "文庫本": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paperback"
+          }
+        }
+      }
+    },
+    "料理教室": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cooking School"
+          }
+        }
+      }
+    },
+    "新しい家の鍵": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keys to the New House"
+          }
+        }
+      }
+    },
+    "新婚の寝室": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Newlyweds’ Bedroom"
+          }
+        }
+      }
+    },
+    "旅行かばんの部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suitcase Room"
+          }
+        }
+      }
+    },
+    "日あたりの居間": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sunny Living Room"
+          }
+        }
+      }
+    },
+    "日つづいた": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "day streak"
+          }
+        }
+      }
+    },
+    "明日の朝、トラックが来る。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The truck comes tomorrow morning."
+          }
+        }
+      }
+    },
+    "星 %d": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d stars"
+          }
+        }
+      }
+    },
+    "星 %d / %d": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d of %d stars"
+          }
+        }
+      }
+    },
+    "映画好きの居間": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Movie Night Lounge"
+          }
+        }
+      }
+    },
+    "時計は3つ。全部ずれている。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Three clocks. None agree."
+          }
+        }
+      }
+    },
+    "書きかけの原稿は、持っていく。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The half-written novel comes along."
+          }
+        }
+      }
+    },
+    "書斎": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Study"
+          }
+        }
+      }
+    },
+    "最後の倉庫": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Last Storeroom"
+          }
+        }
+      }
+    },
+    "最後の夜の部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Last Night"
+          }
+        }
+      }
+    },
+    "最後の箱。テープを2重に。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The final box. Double the tape."
+          }
+        }
+      }
+    },
+    "最後の箱を閉じよう": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seal the last box"
+          }
+        }
+      }
+    },
+    "最終巻だけ2冊ある。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Two copies of the last volume."
+          }
+        }
+      }
+    },
+    "朝4時に、いいにおいがする。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It smells like bread at 4 a.m."
+          }
+        }
+      }
+    },
+    "木のつめ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oak claw"
+          }
+        }
+      }
+    },
+    "本": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BOOKS"
+          }
+        }
+      }
+    },
+    "梅しごとの台所": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pickling Kitchen"
+          }
+        }
+      }
+    },
+    "梅干しのびん": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pickle jar"
+          }
+        }
+      }
+    },
+    "植木鉢": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potted plant"
+          }
+        }
+      }
+    },
+    "植木鉢は、縁側の主。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The potted plants rule the porch."
+          }
+        }
+      }
+    },
+    "次の部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next room"
+          }
+        }
+      }
+    },
+    "次へ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        }
+      }
+    },
+    "残り": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Left"
+          }
+        }
+      }
+    },
+    "毎年6月に漬ける。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pickled every June."
+          }
+        }
+      }
+    },
+    "毎日の部屋はずっと無料": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today's room stays free"
+          }
+        }
+      }
+    },
+    "毎日ひと部屋。だれが開いても同じ部屋。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One room a day. Same room for everyone."
+          }
+        }
+      }
+    },
+    "毛布は厚い。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The blankets are thick."
+          }
+        }
+      }
+    },
+    "水たまりは、わざと踏む。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Made for stepping in puddles on purpose."
+          }
+        }
+      }
+    },
+    "水やりを忘れても生きのびた。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Survived every forgotten watering."
+          }
+        }
+      }
+    },
+    "決まった部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rooms"
+          }
+        }
+      }
+    },
+    "洗濯物と同じ高さで暮らした。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lived at laundry-line height."
+          }
+        }
+      }
+    },
+    "浮いたトラック代": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved on the truck"
+          }
+        }
+      }
+    },
+    "浮いたトラック代の合計": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Total saved on trucks"
+          }
+        }
+      }
+    },
+    "海の見える部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Room with a Sea View"
+          }
+        }
+      }
+    },
+    "炊飯器": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rice cooker"
+          }
+        }
+      }
+    },
+    "無料の 24 部屋と毎日の部屋は、Pro なしで遊べる": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All 24 base rooms and the daily room stay free"
+          }
+        }
+      }
+    },
+    "父のダンベルは、まだ重い。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dad’s dumbbells are still heavy."
+          }
+        }
+      }
+    },
+    "片付けた部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "rooms cleared"
+          }
+        }
+      }
+    },
+    "物をつかんで、右の箱の上で放そう": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grab something and let go over the box on the right"
+          }
+        }
+      }
+    },
+    "物入れ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Closet"
+          }
+        }
+      }
+    },
+    "物置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storeroom"
+          }
+        }
+      }
+    },
+    "狭い台所": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiny Kitchen"
+          }
+        }
+      }
+    },
+    "猫のほうが長く座っていた。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The cat sat here more than anyone."
+          }
+        }
+      }
+    },
+    "玄関の物入れ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hall Closet"
+          }
+        }
+      }
+    },
+    "町内の綱引き大会、準優勝。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Runner-up, neighborhood tug-of-war."
+          }
+        }
+      }
+    },
+    "画家のアトリエ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Painter’s Atelier"
+          }
+        }
+      }
+    },
+    "留学生の部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exchange Student Room"
+          }
+        }
+      }
+    },
+    "皿は全部、手作り。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every plate is handmade."
+          }
+        }
+      }
+    },
+    "目安 %d": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "par %d"
+          }
+        }
+      }
+    },
+    "真ん中をつかめば必ずつかめる": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Center grabs never slip"
+          }
+        }
+      }
+    },
+    "真ん中をつかめば必ずつかめる。詰め方だけを考えたい日に": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Center grabs never slip, so you can focus on packing"
+          }
+        }
+      }
+    },
+    "研究室の本棚": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lab Bookshelf"
+          }
+        }
+      }
+    },
+    "祖母の家から来た、青い縁の皿。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blue-rimmed, from grandma's kitchen."
+          }
+        }
+      }
+    },
+    "祖母の茶の間": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grandma’s Sitting Room"
+          }
+        }
+      }
+    },
+    "祖父の書斎": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grandpa’s Study"
+          }
+        }
+      }
+    },
+    "秘密基地の部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Secret Base"
+          }
+        }
+      }
+    },
+    "積み木": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toy blocks"
+          }
+        }
+      }
+    },
+    "積み木は数えないと減る。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Count the blocks or lose some."
+          }
+        }
+      }
+    },
+    "空気は少し抜けている。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A little soft. Still kicks fine."
+          }
+        }
+      }
+    },
+    "窓を閉めると、波の音が消える。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close the window and the waves go quiet."
+          }
+        }
+      }
+    },
+    "箱": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boxes"
+          }
+        }
+      }
+    },
+    "箱 %d %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Box %d %@"
+          }
+        }
+      }
+    },
+    "箱 1 つで ¥600。何も考えずに詰めた箱の数（目安＋2）より少ないぶんが浮く": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Each box costs ¥600. You save on every box below a careless pack (par + 2)"
+          }
+        }
+      }
+    },
+    "箱の上で、押して下げて、離して放す": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Over the box: hold to lower, let go to drop"
+          }
+        }
+      }
+    },
+    "箱はまだ空っぽ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The box is empty"
+          }
+        }
+      }
+    },
+    "箱を閉じる": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seal box"
+          }
+        }
+      }
+    },
+    "終電の音が子守歌だった。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The last train was a lullaby."
+          }
+        }
+      }
+    },
+    "結婚式で一度だけかぶった。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Worn once, at a wedding."
+          }
+        }
+      }
+    },
+    "縁からはみ出している物を、つかんで出そう": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something sticks out above the rim. Grab it out"
+          }
+        }
+      }
+    },
+    "置き時計": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desk clock"
+          }
+        }
+      }
+    },
+    "自転車屋の物置": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bike Shop Storage"
+          }
+        }
+      }
+    },
+    "船の倉庫": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boat Shed"
+          }
+        }
+      }
+    },
+    "花びん": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vase"
+          }
+        }
+      }
+    },
+    "花びんは、モデルだった。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The vase was a model."
+          }
+        }
+      }
+    },
+    "花を入れたのは一度だけ。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Held flowers exactly once."
+          }
+        }
+      }
+    },
+    "荷物の図鑑 %d / %d": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Packed items %d / %d"
+          }
+        }
+      }
+    },
+    "荷物は少ないはずだった。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It was supposed to be a light trip."
+          }
+        }
+      }
+    },
+    "西日でレコードが反らないように。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep the records out of the sunset."
+          }
+        }
+      }
+    },
+    "角部屋の3階": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Third-Floor Corner"
+          }
+        }
+      }
+    },
+    "記録はこの端末の中だけに残ります。外に送るデータはありません。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your records stay on this device. Nothing is sent anywhere."
+          }
+        }
+      }
+    },
+    "設定": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "試験前の夜をぜんぶ知っている。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Knows every night before an exam."
+          }
+        }
+      }
+    },
+    "詰めると思い出が読める": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pack it to read its story"
+          }
+        }
+      }
+    },
+    "説明書はなくした。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The manual is long gone."
+          }
+        }
+      }
+    },
+    "論文の締め切りは来週。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The thesis is due next week."
+          }
+        }
+      }
+    },
+    "購入できませんでした。もう一度お試しください": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The purchase didn't go through. Please try again"
+          }
+        }
+      }
+    },
+    "購入を復元": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore purchase"
+          }
+        }
+      }
+    },
+    "辞書": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dictionary"
+          }
+        }
+      }
+    },
+    "辞書の背が、日に焼けている。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The dictionary spines are sun-faded."
+          }
+        }
+      }
+    },
+    "辞書は3冊。全部重い。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Three dictionaries. All heavy."
+          }
+        }
+      }
+    },
+    "送った箱": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "boxes sent"
+          }
+        }
+      }
+    },
+    "遊び方をもう一度見る": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show how to play again"
+          }
+        }
+      }
+    },
+    "部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DECOR"
+          }
+        }
+      }
+    },
+    "部屋 %d": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Room %d"
+          }
+        }
+      }
+    },
+    "部屋が 24 → 60 に": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rooms 24 → 60"
+          }
+        }
+      }
+    },
+    "部屋が空っぽになった": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Room cleared"
+          }
+        }
+      }
+    },
+    "部屋とクレーン。なぞるとクレーンが動く": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The room and the crane. Drag to move the crane"
+          }
+        }
+      }
+    },
+    "部屋に戻る": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back to the room"
+          }
+        }
+      }
+    },
+    "部屋の一覧": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rooms"
+          }
+        }
+      }
+    },
+    "部屋をなぞってクレーンを動かし、「つかむ」。真ん中をつかむほど落としにくい。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drag across the room to move the crane, then tap Grab. Grab near the middle so it won't slip."
+          }
+        }
+      }
+    },
+    "部屋をひとつ片付けると、浮いたトラック代がここにたまる。まずは「つかむ」から": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear a room and your savings pile up here. Start with Grab"
+          }
+        }
+      }
+    },
+    "部屋を片付けはじめる": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start packing"
+          }
+        }
+      }
+    },
+    "金のつめ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gold claw"
+          }
+        }
+      }
+    },
+    "金のつめ・木のつめ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gold and oak"
+          }
+        }
+      }
+    },
+    "針を落とす前の、あの音。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That crackle before the song starts."
+          }
+        }
+      }
+    },
+    "長ぐつ": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rain boots"
+          }
+        }
+      }
+    },
+    "長ぐつの季節が長い。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boot season lasts forever."
+          }
+        }
+      }
+    },
+    "長ぐつは3足ある。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Three pairs of rain boots."
+          }
+        }
+      }
+    },
+    "閉じた箱がここに並ぶ。少ないほどトラック代が浮く": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sealed boxes line up here. Fewer boxes, cheaper truck"
+          }
+        }
+      }
+    },
+    "閉じた箱はトラックへ。少ないほど代金が浮く": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sealed boxes go to the truck. Fewer is cheaper"
+          }
+        }
+      }
+    },
+    "閉じる": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        }
+      }
+    },
+    "陶芸家の台所": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potter’s Kitchen"
+          }
+        }
+      }
+    },
+    "陶芸家の台所、ガラス作家の棚、船の倉庫…割れ物の多い 36 部屋": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potter's kitchen, glassmaker's shelf, boat shed… 36 trickier rooms"
+          }
+        }
+      }
+    },
+    "離して放す": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Let go to drop"
+          }
+        }
+      }
+    },
+    "雨の多い町の玄関": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rainy Town Entry"
+          }
+        }
+      }
+    },
+    "雨の日は野球中継。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baseball on rainy days."
+          }
+        }
+      }
+    },
+    "雪国の玄関": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snow Country Entry"
+          }
+        }
+      }
+    },
+    "靴の箱": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shoe box"
+          }
+        }
+      }
+    },
+    "靴の箱は同じ大きさ。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every shoe box is the same size."
+          }
+        }
+      }
+    },
+    "靴は家族の人数より多い。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More shoes than family members."
+          }
+        }
+      }
+    },
+    "靴屋の在庫": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shoe Shop Stock"
+          }
+        }
+      }
+    },
+    "食堂の洗い場": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diner Dish Pit"
+          }
+        }
+      }
+    },
+    "駅前のワンルーム": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Studio by the Station"
+          }
+        }
+      }
+    },
+    "駒が1つだけボタン。": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One piece is now a button."
           }
         }
       }
