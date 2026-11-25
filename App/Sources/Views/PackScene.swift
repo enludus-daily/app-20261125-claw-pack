@@ -394,6 +394,15 @@ final class PackScene: SKScene, @preconcurrency SKPhysicsContactDelegate {
         layoutClaw()
     }
 
+    // 部屋を指でなぞると、クレーンが左右に動く（SpriteKit の画面が指を受ける）
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let t = touches.first { setAim(t.location(in: self).x) }
+    }
+
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let t = touches.first { setAim(t.location(in: self).x) }
+    }
+
     /// 下のボタンを押した
     func press() {
         switch crane {
