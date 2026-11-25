@@ -8,7 +8,7 @@ import XCTest
 /// その日のアプリの主な流れ。
 enum MainFlow {
     /// 起動引数（見本のデータで開くなど。保存されたデータを壊さないもの）
-    static let launchArguments: [String] = []
+    static let launchArguments: [String] = ["-uiTestFresh"]
 
     /// 1 操作ずつ。各操作のあとに撮る。
     /// 案内 3 ページ → つかむ → 放す → つかむ → 放す → 箱を閉じる → 部屋の一覧 → トラックと記録 → 設定
