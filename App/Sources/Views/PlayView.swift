@@ -33,8 +33,8 @@ struct PlayView: View {
                     header
                     statsRow
                     roomCard
-                    TruckBed(boxes: model.closedBoxes, vertical: false)
                     Spacer(minLength: 0)
+                    TruckBed(boxes: model.closedBoxes, vertical: false)
                 }
                 .padding(.horizontal, Space.m)
                 .padding(.top, Space.s)
