@@ -258,6 +258,8 @@ struct StatSticker: View {
                 .font(Type2.number(28))
                 .foregroundStyle(tint)
                 .contentTransition(.numericText())
+                .lineLimit(1)
+                .fixedSize()
             Text(sub)
                 .font(Type2.body(12, .bold))
                 .foregroundStyle(Color.ink.opacity(0.75))
