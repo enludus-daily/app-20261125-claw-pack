@@ -481,7 +481,7 @@ struct PaywallSheet: View {
         if model.isPro { return tr("Pro を持っています", "You have Pro") }
         if let p = product { return trf("%@ で Pro にする", "Get Pro for %@", p.displayPrice) }
         switch model.purchases.loadState {
-        case .unavailable: return tr("いまは買えません（あとで）", "Not available right now")
+        case .unavailable where !model.still: return tr("いまは買えません（あとで）", "Not available right now")
         default: return tr("¥480 で Pro にする", "Get Pro for ¥480")
         }
     }

@@ -705,6 +705,17 @@
         }
       }
     },
+    "もう出てこない。床の物で最後": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing more. The floor is all that's left"
+          }
+        }
+      }
+    },
     "やかん": {
       "extractionState": "manual",
       "localizations": {
@@ -2450,6 +2461,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "The potted plants rule the porch."
+          }
+        }
+      }
+    },
+    "次に来る物": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coming next"
           }
         }
       }

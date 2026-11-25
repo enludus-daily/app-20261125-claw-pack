@@ -105,6 +105,8 @@ final class AppModel {
     var motionOff: Bool { reduceMotion }
     var steadyOn: Bool { isPro && save.steady }
     var remaining: Int { max(0, queue.count - queueIndex) + floorCount + (scene.isHolding ? 1 : 0) }
+    /// 次に部屋へ来る物（3 つまで）
+    var upcoming: [ItemKind] { Array(queue.dropFirst(queueIndex).prefix(3)) }
     var boxesUsed: Int { closedBoxes.count + (inBoxCount > 0 ? 1 : 0) }
 
     // MARK: 部屋の始め

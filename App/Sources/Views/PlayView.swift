@@ -13,18 +13,22 @@ struct PlayView: View {
         ZStack(alignment: .top) {
             MorningBackground()
             if wide {
-                HStack(alignment: .top, spacing: Space.l) {
-                    VStack(spacing: Space.m) {
-                        header
-                        roomCard
+                VStack(spacing: Space.m) {
+                    header
+                    GeometryReader { geo in
+                        HStack(alignment: .top, spacing: Space.m) {
+                            roomCard
+                                .frame(width: geo.size.width * 0.6)
+                            ScrollView {
+                                VStack(spacing: Space.s) {
+                                    VStack(spacing: Space.s) { stats }
+                                    UpNext(items: model.upcoming)
+                                    TruckBed(boxes: model.closedBoxes, vertical: true)
+                                }
+                            }
+                            .frame(maxWidth: .infinity)
+                        }
                     }
-                    .frame(maxWidth: .infinity)
-                    VStack(spacing: Space.m) {
-                        statsRow
-                        TruckBed(boxes: model.closedBoxes, vertical: true)
-                        Spacer(minLength: 0)
-                    }
-                    .frame(width: 300)
                 }
                 .padding(.horizontal, Space.l)
                 .padding(.top, Space.s)
@@ -33,6 +37,7 @@ struct PlayView: View {
                     header
                     statsRow
                     roomCard
+                    UpNext(items: model.upcoming)
                     Spacer(minLength: 0)
                     TruckBed(boxes: model.closedBoxes, vertical: false)
                 }
@@ -99,11 +104,14 @@ struct PlayView: View {
     }
 
     private var statsRow: some View {
-        HStack(spacing: Space.s) {
+        HStack(spacing: Space.s) { stats }
+    }
+
+    @ViewBuilder
+    private var stats: some View {
             StatSticker(title: tr("箱", "Boxes"), value: "\(model.boxesUsed)", sub: trf("目安 %d", "par %d", model.par), tint: model.boxesUsed > model.par ? .alert : .ink)
             StatSticker(title: tr("残り", "Left"), value: "\(model.remaining)", sub: tr("個", "items"), tint: .ink)
             StatSticker(title: tr("割れ", "Broken"), value: "\(model.broken)", sub: model.broken == 0 ? tr("なし", "none") : trf("−%@", "−%@", yen(model.broken * Rules.breakPenalty)), tint: model.broken > 0 ? .alert : .good)
-        }
     }
 
     // MARK: 部屋
@@ -244,6 +252,8 @@ struct StatSticker: View {
             Text(title)
                 .font(Type2.body(13, .heavy))
                 .foregroundStyle(Color.cardboardDeep)
+                .lineLimit(1)
+                .minimumScaleFactor(0.6)
             Text(value)
                 .font(Type2.number(28))
                 .foregroundStyle(tint)
@@ -252,8 +262,9 @@ struct StatSticker: View {
                 .font(Type2.body(12, .bold))
                 .foregroundStyle(Color.ink.opacity(0.75))
                 .lineLimit(1)
-                .minimumScaleFactor(0.7)
+                .minimumScaleFactor(0.5)
         }
+        .padding(.horizontal, 4)
         .frame(maxWidth: .infinity)
         .padding(.vertical, 6)
         .background {
@@ -382,5 +393,53 @@ struct BannerView: View {
                 .shadow(color: .cardboardDeep.opacity(0.25), radius: 0, y: 3)
         }
         .accessibilityElement(children: .combine)
+    }
+}
+
+/// 次に部屋へ来る物（3 つ先まで。大きい物を待つか、いま詰めるかを考えるため）
+struct UpNext: View {
+    let items: [ItemKind]
+
+    var body: some View {
+        HStack(spacing: Space.s) {
+            Text(tr("次に来る物", "Coming next"))
+                .font(Type2.body(13, .heavy))
+                .foregroundStyle(Color.cardboardDeep)
+                .lineLimit(1)
+                .fixedSize()
+            if items.isEmpty {
+                Text(tr("もう出てこない。床の物で最後", "Nothing more. The floor is all that's left"))
+                    .font(Type2.body(13, .bold))
+                    .foregroundStyle(Color.ink.opacity(0.8))
+                    .lineLimit(2)
+                    .minimumScaleFactor(0.8)
+            } else {
+                ForEach(Array(items.enumerated()), id: \.offset) { i, k in
+                    VStack(spacing: 2) {
+                        ItemIcon(kind: k, height: 30)
+                            .frame(height: 32)
+                        HStack(spacing: 2) {
+                            if k.spec.fragile { Image(systemName: "exclamationmark.triangle.fill").foregroundStyle(Color.alert) }
+                            if k.spec.keepsake { Image(systemName: "heart.fill").foregroundStyle(Color.good) }
+                            if k.spec.weight >= 3 { Image(systemName: "scalemass.fill").foregroundStyle(Color.cardboardDeep) }
+                        }
+                        .font(.system(size: 10, weight: .bold))
+                        .frame(height: 11)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .opacity(1 - Double(i) * 0.2)
+                }
+            }
+        }
+        .padding(.horizontal, Space.m)
+        .padding(.vertical, 8)
+        .background {
+            RoundedRectangle(cornerRadius: Radius.card, style: .continuous)
+                .fill(Color.paper.opacity(0.85))
+                .allowsHitTesting(false)
+        }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(tr("次に来る物", "Coming next"))
+        .accessibilityValue(items.map(\.name).joined(separator: ", "))
     }
 }
